@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "@#@",
+        "#/#",
+        "@#@"
+    ],
+    "key": {
+        "#": {
+            "item": "veryconcideas:nether_star_shard"
+        },
+        "/": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "@": {
+            "item": "minecraft:eye_of_ender"
+        },
+    },
+    "result": {
+        "item": "veryconcideas:wither_charm",
+        "count": 1
+    }
+} 

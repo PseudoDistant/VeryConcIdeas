@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "veryconcideas",
   "version": "${version}",
 
   "name": "Example Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "FarlanderCraft"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.youtube.com/channel/UCNW_V3BfkWXcMtCEIGQyaBA",
+    "sources": "https://github.com/FarLanderCraft/VeryConcIdeas",
+    "issues": "https://github.com/FarLanderCraft/MCProjectHotbreak/issues"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/veryconcideas/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.farlandercraft.veryconcideas.Conc"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "veryconcideas.mixins.json"
   ],
 
   "depends": {
@@ -31,8 +32,5 @@
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

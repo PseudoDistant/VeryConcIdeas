@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "veryconcideas:ruby_ore_nether"
+  },
+  "result": "veryconcideas:ruby",
+  "experience": 2,
+  "cookingtime": 400
+}

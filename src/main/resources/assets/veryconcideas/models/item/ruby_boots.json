@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "veryconcideas:item/ruby_boots"
+  }
+}
